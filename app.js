@@ -21,6 +21,24 @@ dogImage.addEventListener('click', () => {
 })
 
 
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'c') {
+        catSound.play()
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        dogSound.play()
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'h') {
+        horseSound.play()
+    }
+});
+
 // set event listeners 
     // get user input(s)
     // do any needed work with the value(s)

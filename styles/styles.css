@@ -4,6 +4,7 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    font-family: 'giddyup-std', sans-serif;
 }
 
 main {
@@ -11,7 +12,7 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: goldenrod;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -25,12 +26,16 @@ header img {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 footer {
-    background-color: #FAF0EA;
+    background-color: gold;
     padding: 10px;
 }
 
